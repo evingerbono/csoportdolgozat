@@ -96,7 +96,7 @@ a {
   background-color: lightcyan;
 }
 
-nav a :hover {
+nav ul li a :hover {
   color: gray;
   background-color: bisque;
 }
