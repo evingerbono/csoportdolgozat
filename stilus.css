@@ -48,10 +48,16 @@ nav a :hover{
 
 article {
   grid-area: a;
+  margin: auto;
+    padding: auto;
+    max-width: 800px;
 }
 
 footer {
   grid-area: f;
+}
+img{
+  max-width: 50%;
 }
 
 ul {
