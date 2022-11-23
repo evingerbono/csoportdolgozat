@@ -32,8 +32,16 @@ ul{
     padding: 0;
     text-decoration: none;
 }
+img{
+    max-width: 50%;
+}
 li{
     text-decoration: none;
+}
+article{
+    margin: auto;
+    padding: auto;
+    max-width: 800px;
 }
 a {
     text-decoration: none;
