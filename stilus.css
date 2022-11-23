@@ -16,7 +16,7 @@ main {
   grid-template-areas:
     "h h h"
     "n a a"
-    "f f f";
+    "f f f"
 }
 
 header {
@@ -41,6 +41,11 @@ nav {
   grid-area: n;
 }
 
+nav a :hover{
+    color: black;
+}
+
+
 article {
   grid-area: a;
   margin: auto;
@@ -50,6 +55,7 @@ article {
 
 footer {
   grid-area: f;
+  text-align: center;
 }
 h1{
 font-size: 30px;
@@ -110,4 +116,5 @@ footer{
     width: 50%;
     padding: 20px;
   }
+
 }
