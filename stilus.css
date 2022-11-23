@@ -55,6 +55,7 @@ article {
 
 footer {
   grid-area: f;
+  text-align: center;
 }
 img{
   max-width: 50%;
