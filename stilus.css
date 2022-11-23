@@ -1,46 +1,71 @@
-body{
-    background-color: lightseagreen;
-}    
-main{
-    background-image: url("kep/hatter.jpg");
-    width: 80%;
-    padding: 10px;
-    max-width: 1000px;
-    margin: auto;
+* {
+  box-sizing: border-box;
 }
-header{
-    background-image: url("kep/header.png");
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    max-width: 1000px;
-    color: aqua;
+
+body {
+  background-color: lightseagreen;
 }
-nav{
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 10px;
-    border: 3px solid lightblue;
-    max-width: 300px;
-    height: 200px;
-    background-color: lightcyan;
+
+main {
+  background-image: url("kep/hatter.jpg");
+  width: 80%;
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "h h h"
+    "n a a"
+    "f f f";
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+
+header {
+  background-image: url("kep/header.png");
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  max-width: 1000px;
+  color: aqua;
+  grid-area: h;
 }
-li{
-    text-decoration: none;
+
+nav {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10px;
+  border: 3px solid lightblue;
+  max-width: 300px;
+  height: 200px;
+  background-color: lightcyan;
+  grid-area: n;
 }
+
+article {
+  grid-area: a;
+}
+
+footer {
+  grid-area: f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
 a {
-    text-decoration: none;
-    color: brown;
-    list-style-type: none;
-    display: block;
-    padding: 8px;
-    font-size: 23px;
-    background-color: lightcyan;
-  }
+  text-decoration: none;
+  color: brown;
+  list-style-type: none;
+  display: block;
+  padding: 8px;
+  font-size: 23px;
+  background-color: lightcyan;
+}
