@@ -50,6 +50,7 @@ article {
 footer {
   grid-area: f;
   text-align: center;
+  font-size: large;
 }
 
 h1 {
@@ -97,8 +98,8 @@ a {
 }
 
 nav ul li a :hover {
-  color: gray;
-  background-color: bisque;
+  color: white;
+  background-color: black;
 }
 
 @media screen and (max-width: 600px) {
